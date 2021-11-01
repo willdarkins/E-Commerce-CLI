@@ -14,11 +14,11 @@ router.get('/', (req, res) => {
       }
     ]
   })
-  .then(dbProductData => res.json(dbProductData))
-  .catch(err => {
-    console.log(err);
-    res.status(500).json(err);
-  })
+    .then(dbProductData => res.json(dbProductData))
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    })
 });
 
 //get single category via id
@@ -34,16 +34,23 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-  .then(dbProductData => res.json(dbProductData))
-  .catch(err => {
-    console.log(err);
-    res.status(500).json(err);
-  })
+    .then(dbProductData => res.json(dbProductData))
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    })
 });
 
-  // create a new category
+// create a new category
 router.post('/', (req, res) => {
-
+  Category.create({
+    category_name: req.body.category_name
+  })
+    .then(dbProductData => res.json(dbProductData))
+    .catch(err => {
+      console.log(err);
+      res.status(500).json(err);
+    })
 });
 
 router.put('/:id', (req, res) => {
