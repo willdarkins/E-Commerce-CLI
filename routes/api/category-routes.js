@@ -19,7 +19,6 @@ router.get('/', (req, res) => {
     console.log(err);
     res.status(500).json(err);
   })
-  // be sure to include its associated Products
 });
 
 //get single category via id
@@ -31,9 +30,14 @@ router.get('/:id', (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ['product_name']
+        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
       }
     ]
+  })
+  .then(dbProductData => res.json(dbProductData))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
   })
 });
 
