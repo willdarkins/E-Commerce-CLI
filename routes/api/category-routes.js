@@ -5,16 +5,7 @@ const { Category, Product } = require('../../models');
 // The `/api/categories` endpoint
 
 router.get('/', (req, res) => {
-  Category.findAll({
-    attributes: ['id', 'category_name'],
-    order: [['category_name', 'DESC']],
-    include: [
-      {
-        model: Product,
-        attributes: ['product_name']
-      }
-    ]
-  })
+  Category.findAll()
   .then(dbProductData => res.json(dbProductData))
   .catch(err => {
     console.log(err);
@@ -29,7 +20,6 @@ router.get('/:id', (req, res) => {
     where: {
       id: req.params.id
     },
-    attributes: ['id', 'category_name'],
     include: [
       {
         model: Product,
@@ -39,8 +29,9 @@ router.get('/:id', (req, res) => {
   })
 });
 
-router.post('/', (req, res) => {
   // create a new category
+router.post('/', (req, res) => {
+
 });
 
 router.put('/:id', (req, res) => {
