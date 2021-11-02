@@ -4,7 +4,7 @@
 *The what, why, and how:*<br>
 ❓ Complete backend logic that utilizes latest technologies to improve performance and function of e-commerce applications in an increasingly competitve digital marketplace
 
-Please follow THIS LINK to view a working video tutorial of the application.
+Please follow <a href= https://vimeo.com/641425109 target="__blank">THIS LINK</a> to view a working video tutorial of the application.
 
 Below are screenshots that provide further reference:
 ![screenshot_1](https://user-images.githubusercontent.com/84754257/139790002-91c64606-ba3e-4598-9f51-deaa547480f9.png)
