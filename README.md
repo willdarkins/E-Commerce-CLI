@@ -58,7 +58,7 @@ Below are screenshots that provide further reference:
     * `CATEGORIES SEEDED`
     * `DATABASE SYNCED`
 * Initiate the synch between Sequelize models and the MySQL database typing the `npm start` command into your terminal
-    * If successful, a console.log message reading `Now listening`
+    * If successful, a console.log message reading `Now listening` will populate in the terminal
 * Navigate to the Insomnia REST application and begin testing each of the POST, GET, PUT and DELETE routes associated with the application's models using `localhost:3001`.
 
 ## Credits
