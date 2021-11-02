@@ -7,6 +7,10 @@
 Please follow THIS LINK to view a working video tutorial of the application.
 
 Below are screenshots that provide further reference:
+![screenshot_1](https://user-images.githubusercontent.com/84754257/139790002-91c64606-ba3e-4598-9f51-deaa547480f9.png)
+![screenshot_2](https://user-images.githubusercontent.com/84754257/139790011-ae9af357-5487-4a1a-b8f1-73768ad06a58.png)
+![screenshot_3](https://user-images.githubusercontent.com/84754257/139790030-171fad86-4def-4237-9a9a-1348a0034632.png)
+
 
 ## Table of Contents
 
@@ -54,7 +58,7 @@ Below are screenshots that provide further reference:
     * `CATEGORIES SEEDED`
     * `DATABASE SYNCED`
 * Initiate the synch between Sequelize models and the MySQL database typing the `npm start` command into your terminal
-    * If successful, a console.log message reading `Now listening`
+    * If successful, a console.log message reading `Now listening` will populate in the terminal
 * Navigate to the Insomnia REST application and begin testing each of the POST, GET, PUT and DELETE routes associated with the application's models using `localhost:3001`.
 
 ## Credits
@@ -78,6 +82,8 @@ Recognition is also in order to my tutor Amanda Chapman, who suggested updating 
 Please consult this documentation before contributing to this project.
 
 ## Questions
+![Profile Pic](https://user-images.githubusercontent.com/84754257/139790099-cf4bfa2b-7f7b-45d3-9b52-db9f6c7255c1.jpg)
+
 If you have any questions regarding the development process of this application, or specific questions about contributing, feel free to reach me by email or on Github.
 * Email 📪 willdarkins@gmail.com
 * Github 🗿 [willdarkins](https://github.com/willdarkins) 
