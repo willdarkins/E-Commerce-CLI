@@ -7,6 +7,10 @@
 Please follow THIS LINK to view a working video tutorial of the application.
 
 Below are screenshots that provide further reference:
+![screenshot_1](https://user-images.githubusercontent.com/84754257/139790002-91c64606-ba3e-4598-9f51-deaa547480f9.png)
+![screenshot_2](https://user-images.githubusercontent.com/84754257/139790011-ae9af357-5487-4a1a-b8f1-73768ad06a58.png)
+![screenshot_3](https://user-images.githubusercontent.com/84754257/139790030-171fad86-4def-4237-9a9a-1348a0034632.png)
+
 
 ## Table of Contents
 
