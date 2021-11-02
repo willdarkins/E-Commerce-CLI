@@ -82,6 +82,8 @@ Recognition is also in order to my tutor Amanda Chapman, who suggested updating 
 Please consult this documentation before contributing to this project.
 
 ## Questions
+![Profile Pic](https://user-images.githubusercontent.com/84754257/139790099-cf4bfa2b-7f7b-45d3-9b52-db9f6c7255c1.jpg)
+
 If you have any questions regarding the development process of this application, or specific questions about contributing, feel free to reach me by email or on Github.
 * Email 📪 willdarkins@gmail.com
 * Github 🗿 [willdarkins](https://github.com/willdarkins) 
