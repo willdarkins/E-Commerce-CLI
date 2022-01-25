@@ -1,4 +1,4 @@
-# 💻 darkins_orm-e-commerce_wk13
+# 💻 E-Commerce CLI
 
 ## Description
 *The what, why, and how:*<br>
